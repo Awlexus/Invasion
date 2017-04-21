@@ -276,4 +276,8 @@ public class BattlefieldThread implements Runnable {
     public void transformSectionTo(int id, Section newSection) {
         sections[id/size][id%size] = newSection;
     }
+
+    public Section[][] getSections() {
+        return sections;
+    }
 }
