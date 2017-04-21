@@ -21,12 +21,12 @@ public class ProtocolUtils {
 	/**
 	 * Somebody is a winner
 	 */
-	public final static int GAME_END = 4;
+	public final static int GAME_END = 3;
 
 	/**
 	 * Server sends mapdata
 	 */
-	public final static int GAME_MAP = 8;
+	public final static int GAME_MAP = 4;
 
 	/**
 	 * How many times the server repeats the command
@@ -45,7 +45,6 @@ public class ProtocolUtils {
 	 * @return
 	 * @throws IOException
 	 */
-
 	public static int getProtocolHead(InputStream in) throws IOException {
 
 		// Receive Command
